@@ -1,0 +1,6 @@
+// Numbers present in first array but not in second
+
+a1=[4,7,3,2];
+a2=[8,7,2,6];
+result=[x for x in a1 if x  not in a2];
+print(result)
