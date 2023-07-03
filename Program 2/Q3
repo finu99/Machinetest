@@ -1,0 +1,8 @@
+Replace string
+
+string = "I am a doctor";  
+ch = '--';  
+string = string.replace(' ', ch);  
+print("After replacing string is: ");  
+print(string);
+
