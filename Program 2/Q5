@@ -1,0 +1,14 @@
+//Unique characters
+
+def unique(str):
+    for i in range(len(str)):
+        for j in range(i + 1,len(str)):
+            if(str[i] == str[j]):
+                return False;
+    return True;
+str = "mobile";
+ 
+if(unique(str)):
+    print("True");
+else:
+    print("False");
