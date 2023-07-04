@@ -1,0 +1,50 @@
+//Area of rectangle
+
+#include <stdio.h>
+
+int main() {
+    int a,b,area;
+    printf("Enter the length of rectangle");
+    scanf("%d",&a);
+    printf("Enter the breadth of rectangle");
+    scanf("%d",&b);
+    area=a*b;
+    printf("Area of rectangle is %d",area);
+
+    return 0;
+}
+
+
+//Area of square
+
+#include <stdio.h>
+
+int main() {
+    int a,area;
+    printf("Enter the side of square");
+    scanf("%d",&a);
+   
+    area=a*a;
+    printf("Area of square is %d",area);
+
+    return 0;
+}
+
+//Check whether the given number is prime or not
+
+#include <stdio.h>
+
+int main() {
+    int a;
+    printf("Enter a number");
+    scanf("%d",&a);
+   if(a%2 != 0)
+   {
+   printf("The number is prime");
+   }
+   else
+   {
+   printf("The number is not prime");
+   }
+    return 0;
+}
